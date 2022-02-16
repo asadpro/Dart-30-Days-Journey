@@ -11,8 +11,8 @@ void main() {
   address = 'peshawar'; //the value peshawar is also known as string literal.
   int dollors = 444;
   int rupees = 157;
-  print("I have \$$dollors");
 
+  print("I have \$$dollors");
   print(
       name); /*print is a special method which take string as a parameter to show it on console print method
   used only in testing mode not in production mode(the actual app made for use)
@@ -29,4 +29,5 @@ void main() {
   /* Initilizing variable means when we assign value to that variable while Declaration means without declaring 
   any value to that specific variable.
   */
+  
 }
