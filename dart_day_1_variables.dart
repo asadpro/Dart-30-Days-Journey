@@ -14,8 +14,9 @@ void main() {
 
   print("I have \$$dollors");
   print(
-      name); /*print is a special method which take string as a parameter to show it on console print method
-  used only in testing mode not in production mode(the actual app made for use)
+      name); /*print is a special method which takes Object parameter to show it on console print method
+  used only in testing mode not in production mode(the actual app made for use). Object mean it can be any type
+  like int, double etc.
 */
   print(
       '$name and $address'); /*if you want to print multiple variable through print function then you can use 
@@ -29,5 +30,4 @@ void main() {
   /* Initilizing variable means when we assign value to that variable while Declaration means without declaring 
   any value to that specific variable.
   */
-  
 }
