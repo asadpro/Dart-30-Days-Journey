@@ -15,6 +15,9 @@ void main() {
   List list2 = [4, 3, 6, 2, 8];
   list1.add(1);
   list2.addAll(list1);
+  //You can also use spread operator to combine two lists
+  List list3 = [...list1, ...list2];
+  print(list3);
   list2.insert(0, 44);
   //This loop will iterate through every element in list2 and will put it into item variable.
   for (int item in list2) {
